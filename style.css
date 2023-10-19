@@ -1,0 +1,126 @@
+
+.header {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+}
+.fondo{
+    background-size: cover;
+    height: 600px;
+
+}
+.padding{
+    padding-top: 100px;
+}
+.nombrepeli{
+    margin-left: 30px;
+    margin-right: 400px;
+}
+#rating, #boton, #edad{
+    margin-left: 30px;
+}
+#imagenfondo{
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(28, 28, 28);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    background-size: cover;
+}
+.contenedor .texto {
+    width: 50%;
+}
+
+.texto .botones-edad {
+    display: flex;
+    align-items: baseline;
+}
+
+.barra {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    margin-left: 30px;
+}
+
+#perfil {
+    margin-left: 1150px;
+}
+
+.texto .nombre {
+    margin-top: 150px;
+    display: flex;
+    align-items: baseline;
+}
+
+header nav a {
+    color: #d4d4d4;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+header nav a:hover,
+header nav a.active {
+    color: #FFF;
+}
+
+#boton {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 0.80em;
+    padding: 0.93em 1.87em;
+    color: #FFF;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .2s ease all;
+    font-size: 1.12em;
+}
+
+#boton:hover {
+    background: #FFF;
+    color: black;
+}
+.main {
+    color: #FFF;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#peli, #peliculas1 {
+    display: flex;
+    align-items: center;
+    display: flex;
+    margin: 10px 0;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+#peli::-webkit-scrollbar, #peliculas1::-webkit-scrollbar  {
+    display: none;
+}
+.individual{
+    border-radius: 5%;
+    margin-left: 15px;
+}
+.letras{
+    margin-left: 25px;
+    display: flex;
+}
+
+#bookmark{
+    margin-left: 80px;
+}
+.izquierda{
+    display: flex;
+}
+
